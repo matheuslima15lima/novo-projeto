@@ -1,0 +1,50 @@
+/* reset css */
+
+@font-face {
+    font-family: "BebasNeue-Regular";
+    /*apelido ou nome da fonte*/
+    src: url(../assets/fonts/bebas_neue/BebasNeue-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid {
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+}
+
+header {
+    background-color: #f9003d;
+    height: 60px;
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 600px;
+    border: 2px solid white;
+}
+
+header nav a {
+    padding: 15px 25px;
+    font-family: "BebasNeue-Regular";
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
