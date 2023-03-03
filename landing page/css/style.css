@@ -33,7 +33,7 @@ header .header-flex {
 
 header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     border-radius: 5px;
     border: 1px solid white;
     width: 600px;
@@ -47,4 +47,57 @@ header nav a {
     text-decoration: none;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+
+/*ao passar o mouse */
+
+header nav a:hover {
+    background-color: white;
+    color: #f9003d;
+}
+
+
+/* Main*/
+
+main .banner {
+    width: 100%;
+    height: 740px;
+    color: white;
+    background-image: url(../assets/images/assets_/imagem-fundo-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+main .banner-flex {
+    display: flex;
+    align-items: center;
+}
+
+main .banner #bannerinfo {
+    width: 550px;
+    border: 2px solid yellow;
+}
+
+main .banner #bannerinfo h1 {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    font-family: BebasNeue-Regular;
+    font-size: 96px;
+    border-bottom: 2px solid #ffaf00;
+}
+
+main .banner #bannerinfo p {
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 53px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f9003d;
+}
+
+main .sla #projetos h1 {
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
