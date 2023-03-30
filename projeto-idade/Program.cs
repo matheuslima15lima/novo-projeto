@@ -12,16 +12,14 @@
 
 
 
-Console.WriteLine($"informe sua ano de nascimento");
-int anoNascimento = int.Parse(Console.ReadLine());
+// Console.WriteLine($"informe sua ano de nascimento");
+// int anoNascimento = int.Parse(Console.ReadLine());
 
-int anoAtual = DateTime.Now.Year;
+// int anoAtual = DateTime.Now.Year;
 
-int idade = anoAtual - anoNascimento;
+// int idade = anoAtual - anoNascimento;
 
-Console.WriteLine($"a idade e {idade} anos");
-
-
+// Console.WriteLine($"a idade e {idade} anos");
 
 
 
