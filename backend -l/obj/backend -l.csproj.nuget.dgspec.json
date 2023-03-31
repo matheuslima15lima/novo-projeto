@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\46447568812\\Desktop\\backend -l\\backend -l.csproj": {}
+    "C:\\Users\\46447568812\\Desktop\\novo-projeto\\backend -l\\backend -l.csproj": {}
   },
   "projects": {
-    "C:\\Users\\46447568812\\Desktop\\backend -l\\backend -l.csproj": {
+    "C:\\Users\\46447568812\\Desktop\\novo-projeto\\backend -l\\backend -l.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\46447568812\\Desktop\\backend -l\\backend -l.csproj",
+        "projectUniqueName": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\backend -l\\backend -l.csproj",
         "projectName": "backend -l",
-        "projectPath": "C:\\Users\\46447568812\\Desktop\\backend -l\\backend -l.csproj",
+        "projectPath": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\backend -l\\backend -l.csproj",
         "packagesPath": "C:\\Users\\46447568812\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46447568812\\Desktop\\backend -l\\obj\\",
+        "outputPath": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\backend -l\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\46447568812\\AppData\\Roaming\\NuGet\\NuGet.Config",
