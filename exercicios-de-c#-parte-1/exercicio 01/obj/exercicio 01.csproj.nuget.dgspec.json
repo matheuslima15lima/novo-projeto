@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\46447568812\\Desktop\\exercicios\\exercicio 01\\exercicio 01.csproj": {}
+    "C:\\Users\\46447568812\\Desktop\\novo-projeto\\exercicios-de-c#-parte-1\\exercicio 01\\exercicio 01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\46447568812\\Desktop\\exercicios\\exercicio 01\\exercicio 01.csproj": {
+    "C:\\Users\\46447568812\\Desktop\\novo-projeto\\exercicios-de-c#-parte-1\\exercicio 01\\exercicio 01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\46447568812\\Desktop\\exercicios\\exercicio 01\\exercicio 01.csproj",
+        "projectUniqueName": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\exercicios-de-c#-parte-1\\exercicio 01\\exercicio 01.csproj",
         "projectName": "exercicio 01",
-        "projectPath": "C:\\Users\\46447568812\\Desktop\\exercicios\\exercicio 01\\exercicio 01.csproj",
+        "projectPath": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\exercicios-de-c#-parte-1\\exercicio 01\\exercicio 01.csproj",
         "packagesPath": "C:\\Users\\46447568812\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46447568812\\Desktop\\exercicios\\exercicio 01\\obj\\",
+        "outputPath": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\exercicios-de-c#-parte-1\\exercicio 01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\46447568812\\AppData\\Roaming\\NuGet\\NuGet.Config",
