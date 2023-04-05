@@ -1,0 +1,15 @@
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\bin\Debug\net7.0\exercicio-02.exe
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\bin\Debug\net7.0\exercicio-02.deps.json
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\bin\Debug\net7.0\exercicio-02.runtimeconfig.json
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\bin\Debug\net7.0\exercicio-02.dll
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\bin\Debug\net7.0\exercicio-02.pdb
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\obj\Debug\net7.0\exercicio-02.csproj.AssemblyReference.cache
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\obj\Debug\net7.0\exercicio-02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\obj\Debug\net7.0\exercicio-02.AssemblyInfoInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\obj\Debug\net7.0\exercicio-02.AssemblyInfo.cs
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\obj\Debug\net7.0\exercicio-02.csproj.CoreCompileInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\obj\Debug\net7.0\exercicio-02.dll
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\obj\Debug\net7.0\refint\exercicio-02.dll
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\obj\Debug\net7.0\exercicio-02.pdb
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\obj\Debug\net7.0\exercicio-02.genruntimeconfig.cache
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\exercicio-02\obj\Debug\net7.0\ref\exercicio-02.dll
