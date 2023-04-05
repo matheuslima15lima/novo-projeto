@@ -1,0 +1,15 @@
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\bin\Debug\net7.0\operador-decremento.exe
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\bin\Debug\net7.0\operador-decremento.deps.json
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\bin\Debug\net7.0\operador-decremento.runtimeconfig.json
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\bin\Debug\net7.0\operador-decremento.dll
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\bin\Debug\net7.0\operador-decremento.pdb
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\obj\Debug\net7.0\operador-decremento.csproj.AssemblyReference.cache
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\obj\Debug\net7.0\operador-decremento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\obj\Debug\net7.0\operador-decremento.AssemblyInfoInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\obj\Debug\net7.0\operador-decremento.AssemblyInfo.cs
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\obj\Debug\net7.0\operador-decremento.csproj.CoreCompileInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\obj\Debug\net7.0\operador-decremento.dll
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\obj\Debug\net7.0\refint\operador-decremento.dll
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\obj\Debug\net7.0\operador-decremento.pdb
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\obj\Debug\net7.0\operador-decremento.genruntimeconfig.cache
+C:\Users\46447568812\Desktop\novo-projeto\exercicios-05-04-23\operador-decremento\obj\Debug\net7.0\ref\operador-decremento.dll
