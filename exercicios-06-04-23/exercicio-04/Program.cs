@@ -38,28 +38,28 @@ Console.WriteLine($"gostou do produto? S/N");
 char respostas2 = char.Parse(Console.ReadLine());
 
 Console.WriteLine($"gostou do produto? S/N");
-char respostas1 = char.Parse(Console.ReadLine());
+char respostas3 = char.Parse(Console.ReadLine());
 
 Console.WriteLine($"gostou do produto? S/N");
-char respostas1 = char.Parse(Console.ReadLine());
+char respostas4 = char.Parse(Console.ReadLine());
 
 Console.WriteLine($"gostou do produto? S/N");
-char respostas1 = char.Parse(Console.ReadLine());
+char respostas5 = char.Parse(Console.ReadLine());
 
 Console.WriteLine($"gostou do produto? S/N");
-char respostas1 = char.Parse(Console.ReadLine());
+char respostas6 = char.Parse(Console.ReadLine());
 
 Console.WriteLine($"gostou do produto? S/N");
-char respostas1 = char.Parse(Console.ReadLine());
+char respostas7 = char.Parse(Console.ReadLine());
 
 Console.WriteLine($"gostou do produto? S/N");
-char respostas1 = char.Parse(Console.ReadLine());
+char respostas8 = char.Parse(Console.ReadLine());
 
 Console.WriteLine($"gostou do produto? S/N");
-char respostas1 = char.Parse(Console.ReadLine());
+char respostas9 = char.Parse(Console.ReadLine());
 
 Console.WriteLine($"gostou do produto? S/N");
-char respostas1 = char.Parse(Console.ReadLine());
+char respostas10 = char.Parse(Console.ReadLine());
 
 
 
