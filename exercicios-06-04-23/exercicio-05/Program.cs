@@ -45,7 +45,8 @@ for (var i = 1; i <=10; i++)
     
 
 }
-mediaIdadeHomem = (IdadeHomem++ /IdadeHomem++);
+
+
    
 //     porcentagemHomemNao = ((float)totalHomemNao/(float)totalHomem)*100;
 // Console.WriteLine($"A porcentagem de homens que responderam que nao gostaram e de: {porcentagemHomemNao} %");

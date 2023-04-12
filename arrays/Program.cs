@@ -94,27 +94,34 @@
 
 // Console.WriteLine($"idade: {idade} anos");
 
-string[] nomes = new string[3];
-int[] idades = new int[3];
 
-for (var i = 0; i < 3; i++)
+
+
+//declarando as variaveis
+string[] nomes = new string[5];
+int[] idades = new int[5];
+
+// recebe o nome das listas(arrays)
+for (var i = 0; i < 5; i++)
 {
-    Console.WriteLine($"qual teu nome");
+    Console.WriteLine($"informe o {i+1}º nome");
     nomes[i] = Console.ReadLine();
 
-    Console.WriteLine($"digite sua idade");
+    Console.WriteLine($"informe a {i+1}º idade");
     idades[i] = int.Parse(Console.ReadLine());
 
 }
 
-for (var i = 0; i < 3; i++)
+for (var i = 0; i < 5; i++)
 {
+    // imprimir o nome
     Console.ForegroundColor = ConsoleColor.DarkBlue;
-    Console.WriteLine($"nome: {nomes[i]}");
+    Console.WriteLine($" {i+1}) nome: {nomes[i]}");
     Console.ResetColor();
 
-    Console.ForegroundColor = ConsoleColor.DarkBlue;
-    Console.WriteLine($"idade: {idades[i]}");
+    // imprimir a idade
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine($"idade: {idades[i]} anos");
     Console.ResetColor();
 }
 

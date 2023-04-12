@@ -1,0 +1,15 @@
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\bin\Debug\net7.0\funcoes.exe
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\bin\Debug\net7.0\funcoes.deps.json
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\bin\Debug\net7.0\funcoes.runtimeconfig.json
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\bin\Debug\net7.0\funcoes.dll
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\bin\Debug\net7.0\funcoes.pdb
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\obj\Debug\net7.0\funcoes.csproj.AssemblyReference.cache
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\obj\Debug\net7.0\funcoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\obj\Debug\net7.0\funcoes.AssemblyInfoInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\obj\Debug\net7.0\funcoes.AssemblyInfo.cs
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\obj\Debug\net7.0\funcoes.csproj.CoreCompileInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\obj\Debug\net7.0\funcoes.dll
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\obj\Debug\net7.0\refint\funcoes.dll
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\obj\Debug\net7.0\funcoes.pdb
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\obj\Debug\net7.0\funcoes.genruntimeconfig.cache
+C:\Users\46447568812\Desktop\novo-projeto\funcoes\obj\Debug\net7.0\ref\funcoes.dll
