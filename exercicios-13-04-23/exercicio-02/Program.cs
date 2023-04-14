@@ -32,7 +32,7 @@ Console.WriteLine(@$"
 
 
 Console.WriteLine($"escolha entre alcool ou gasolina A/G");
-char combustível = char.Parse(Console.ReadLine());
+char combustível = char.Parse(Console.ReadLine().ToUpper());
 
 Console.WriteLine($"quantos litros deseja?");
 int litros = int.Parse(Console.ReadLine());
@@ -42,13 +42,13 @@ if (combustível == 'a' )
 
 if (litros <= 20)
 {
-    Console.WriteLine($"voce pagara {4.90 * litros * (1)- 0.03}");
+    Console.WriteLine($"voce pagara {(4.90f * litros) * ((1)- 0.03f)}");
     
 }
 
 else if (litros > 20)
 {
-    Console.WriteLine($"voce pagara {4.90 * litros * (1)- 0.05}");
+    Console.WriteLine($"voce pagara {(4.90f * litros) * ((1)- 0.05f)}");
     
 }
 }
@@ -61,13 +61,13 @@ if (combustível == 'G')
 
     if (litros <= 20)
 {
-    Console.WriteLine($"voce pagara {5.30 * litros * (1)- 0.04}");
+    Console.WriteLine($"voce pagara {(5.30f * litros) * ((1)- 0.04f)}");
     
 }
 
 else if (litros > 20)
 {
-    Console.WriteLine($"voce pagara {5.30 * litros * (1)- 0.06}");
+    Console.WriteLine($"voce pagara {(5.30f * litros) * ((1)- 0.06f)}");
     
 }
 }
