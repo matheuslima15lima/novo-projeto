@@ -1,0 +1,15 @@
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\bin\Debug\net7.0\atividade-dia-14-passagens-aereas.exe
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\bin\Debug\net7.0\atividade-dia-14-passagens-aereas.deps.json
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\bin\Debug\net7.0\atividade-dia-14-passagens-aereas.runtimeconfig.json
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\bin\Debug\net7.0\atividade-dia-14-passagens-aereas.dll
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\bin\Debug\net7.0\atividade-dia-14-passagens-aereas.pdb
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\obj\Debug\net7.0\atividade-dia-14-passagens-aereas.csproj.AssemblyReference.cache
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\obj\Debug\net7.0\atividade-dia-14-passagens-aereas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\obj\Debug\net7.0\atividade-dia-14-passagens-aereas.AssemblyInfoInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\obj\Debug\net7.0\atividade-dia-14-passagens-aereas.AssemblyInfo.cs
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\obj\Debug\net7.0\atividade-dia-14-passagens-aereas.csproj.CoreCompileInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\obj\Debug\net7.0\atividade-dia-14-passagens-aereas.dll
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\obj\Debug\net7.0\refint\atividade-dia-14-passagens-aereas.dll
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\obj\Debug\net7.0\atividade-dia-14-passagens-aereas.pdb
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\obj\Debug\net7.0\atividade-dia-14-passagens-aereas.genruntimeconfig.cache
+C:\Users\46447568812\Desktop\novo-projeto\atividade-dia-14-passagens-aereas\obj\Debug\net7.0\ref\atividade-dia-14-passagens-aereas.dll
