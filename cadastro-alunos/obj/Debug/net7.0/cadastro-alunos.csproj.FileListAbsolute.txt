@@ -1,0 +1,15 @@
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\bin\Debug\net7.0\cadastro-alunos.exe
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\bin\Debug\net7.0\cadastro-alunos.deps.json
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\bin\Debug\net7.0\cadastro-alunos.runtimeconfig.json
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\bin\Debug\net7.0\cadastro-alunos.dll
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\bin\Debug\net7.0\cadastro-alunos.pdb
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\obj\Debug\net7.0\cadastro-alunos.csproj.AssemblyReference.cache
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\obj\Debug\net7.0\cadastro-alunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\obj\Debug\net7.0\cadastro-alunos.AssemblyInfoInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\obj\Debug\net7.0\cadastro-alunos.AssemblyInfo.cs
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\obj\Debug\net7.0\cadastro-alunos.csproj.CoreCompileInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\obj\Debug\net7.0\cadastro-alunos.dll
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\obj\Debug\net7.0\refint\cadastro-alunos.dll
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\obj\Debug\net7.0\cadastro-alunos.pdb
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\obj\Debug\net7.0\cadastro-alunos.genruntimeconfig.cache
+C:\Users\46447568812\Desktop\novo-projeto\cadastro-alunos\obj\Debug\net7.0\ref\cadastro-alunos.dll
