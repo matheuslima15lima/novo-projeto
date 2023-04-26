@@ -11,42 +11,36 @@
 
 namespace Projeto_Celular
 {
-    public class celular
+    public class Celular
     {
         // atributos/objetos
-        public string Cor = azul;
-        public string Modelo = moto-g7-play;
+        public string Cor;
+        public string Modelo;
         public float Tamanho = 0.20f;
         public bool Ligado;
+        
 
         //metodos
-        public string LigarCelular()
+        public void LigarCelular()
         {
-            return Console.WriteLine($"ligando...");
-            
-        }
-
-        public string Desligar()
-        {
-            Console.WriteLine($"desligando...");
-            
-        }
-
-        public string FazerLigacao()
-        {
+            Ligado = true;
             Console.WriteLine($"ligando...");
-            
         }
 
-        public string EnviarMensagem()
+        public void Desligar()
         {
-            Console.WriteLine($"enviando...");
-            
+            Ligado = false;
+            Console.WriteLine($"desligando");
         }
-        
-      
-        
 
+        public void FazerLigacao()
+        {
+            Console.WriteLine($"fazendo ligacao...");
+        }
+
+        public void EnviarMensagem()
+        {
+                Console.WriteLine($"enviando mensagem...");
+        }
     }
 }
-
