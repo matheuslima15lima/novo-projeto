@@ -20,5 +20,7 @@ Elevador el = new Elevador();
 // capacidade = 6
 // TotalAndares = 3
 
+
 el.Inicicializar(6 , 3);
 el.Entrar();
+el.Subir();

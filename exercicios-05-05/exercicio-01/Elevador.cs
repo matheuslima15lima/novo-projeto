@@ -16,10 +16,12 @@ namespace exercicio_01
 {
     public class Elevador
     {
-        public int terreo { get; set; }
-        public int TotalAndares  { get; set;} = 3;
-        public int Capacidade { get; set;} = 6;
+        public int terreo { get; set; } = 0;
+        public int TotalAndares { get; set; } = 3;
+        public int Capacidade { get; set; } = 6;
         public int PessoasPresentes { get; set; }
+
+        public int AndarAtual { get; set; } = 0;
 
         // metodos
         public void Inicicializar(int Capacidade)
@@ -36,23 +38,49 @@ namespace exercicio_01
             
             
             ");
-            
-        }
 
-        public void Subir()
-        {
             Console.WriteLine($@"
-            qual andar voce quer subir?
+            qual andar voce quer?
             [1]
             [2]
             [3]
             
             ");
+
+
+
+
+
+
+        }
+
+        public void Subir()
+        {
+
+            Console.WriteLine($"deseja subir?");
+            Sobe Console.ReadLine();
             
+            if (AndarAtual < 10)
+            {
+                AndarAtual += 1;
+            }
+            else
+            {
+                Console.WriteLine($"Você já está no último andar!!!");
+            }
+
         }
 
         public void Descer()
         {
+            if (AndarAtual != 0)
+        {
+            AndarAtual -=1;
+        }
+        else{
+            Console.WriteLine($"Não há como descer mais do que isso");
+            
+        }
 
         }
 
@@ -63,15 +91,32 @@ namespace exercicio_01
 
             if (this.PessoasPresentes >= this.Capacidade)
             {
-                Console.WriteLine($"nao pode entrar , ja ta cheio");               
+                Console.WriteLine($"nao pode entrar , ja ta cheio");
+            }
+
+            else
+            {
+                Console.WriteLine($"pode entrar");
+            }
+
+
+
+        }
+
+        public void Sair()
+        {
+
+            if (PessoasPresentes != 0)
+            {
+                PessoasPresentes -= 1;
             }
             else
             {
-                Console.WriteLine($"pode entrar");                
+                Console.WriteLine($"Não tem ninguém no elevador");
+
             }
-            
-            
-            
+
+
         }
     }
 }
