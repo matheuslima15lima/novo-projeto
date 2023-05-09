@@ -1,0 +1,15 @@
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\bin\Debug\net7.0\classes-estaticas.exe
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\bin\Debug\net7.0\classes-estaticas.deps.json
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\bin\Debug\net7.0\classes-estaticas.runtimeconfig.json
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\bin\Debug\net7.0\classes-estaticas.dll
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\bin\Debug\net7.0\classes-estaticas.pdb
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\obj\Debug\net7.0\classes-estaticas.csproj.AssemblyReference.cache
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\obj\Debug\net7.0\classes-estaticas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\obj\Debug\net7.0\classes-estaticas.AssemblyInfoInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\obj\Debug\net7.0\classes-estaticas.AssemblyInfo.cs
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\obj\Debug\net7.0\classes-estaticas.csproj.CoreCompileInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\obj\Debug\net7.0\classes-estaticas.dll
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\obj\Debug\net7.0\refint\classes-estaticas.dll
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\obj\Debug\net7.0\classes-estaticas.pdb
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\obj\Debug\net7.0\classes-estaticas.genruntimeconfig.cache
+C:\Users\46447568812\Desktop\novo-projeto\classes-estaticas\obj\Debug\net7.0\ref\classes-estaticas.dll
