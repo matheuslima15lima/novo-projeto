@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto_Produto_Interface\\Projeto_Produto_Interface.csproj": {}
+    "C:\\Users\\46447568812\\Desktop\\Projeto-Agenda\\Projeto-Agenda.csproj": {}
   },
   "projects": {
-    "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto_Produto_Interface\\Projeto_Produto_Interface.csproj": {
+    "C:\\Users\\46447568812\\Desktop\\Projeto-Agenda\\Projeto-Agenda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto_Produto_Interface\\Projeto_Produto_Interface.csproj",
-        "projectName": "Projeto_Produto_Interface",
-        "projectPath": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto_Produto_Interface\\Projeto_Produto_Interface.csproj",
+        "projectUniqueName": "C:\\Users\\46447568812\\Desktop\\Projeto-Agenda\\Projeto-Agenda.csproj",
+        "projectName": "Projeto-Agenda",
+        "projectPath": "C:\\Users\\46447568812\\Desktop\\Projeto-Agenda\\Projeto-Agenda.csproj",
         "packagesPath": "C:\\Users\\46447568812\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto_Produto_Interface\\obj\\",
+        "outputPath": "C:\\Users\\46447568812\\Desktop\\Projeto-Agenda\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\46447568812\\AppData\\Roaming\\NuGet\\NuGet.Config",
