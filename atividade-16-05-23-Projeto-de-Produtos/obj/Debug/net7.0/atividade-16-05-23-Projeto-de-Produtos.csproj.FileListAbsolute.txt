@@ -1,0 +1,15 @@
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\bin\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.exe
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\bin\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.deps.json
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\bin\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.runtimeconfig.json
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\bin\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.dll
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\bin\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.pdb
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\obj\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.csproj.AssemblyReference.cache
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\obj\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\obj\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.AssemblyInfoInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\obj\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.AssemblyInfo.cs
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\obj\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.csproj.CoreCompileInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\obj\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.dll
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\obj\Debug\net7.0\refint\atividade-16-05-23-Projeto-de-Produtos.dll
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\obj\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.pdb
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\obj\Debug\net7.0\atividade-16-05-23-Projeto-de-Produtos.genruntimeconfig.cache
+C:\Users\46447568812\Desktop\novo-projeto\atividade-16-05-23-Projeto-de-Produtos\obj\Debug\net7.0\ref\atividade-16-05-23-Projeto-de-Produtos.dll
