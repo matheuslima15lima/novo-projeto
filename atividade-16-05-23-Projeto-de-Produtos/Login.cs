@@ -21,15 +21,117 @@ namespace atividade_16_05_23_Projeto_de_Produtos
 {
     public class Login
     {
-        // public Bool Logado;
+
+        Usuario user = new Usuario();
+        Produto produto = new Produto();
+
+        Marca marca = new Marca();
+        public bool Logado { get; set; }
+
+
 
         public Login()
         {
-            Usuario.Cadastrar()
-          
+            Logar(user);
+            if (Logado = true)
+            {
+                GerarMenu();
+            }
+        }
+
+
+        public void Logar(Usuario usuario)
+        {
+            Console.WriteLine($"insira seu email");
+            string email = Console.ReadLine();
+
+            Console.WriteLine($"insira sua senha");
+            string senha = Console.ReadLine();
+
+            if (senha == usuario.Senha && email == usuario.Email)
+            {
+                this.Logado = true;
+
+
+            }
+
+            else
+            {
+                this.Logado = false;
+
+            }
+
 
         }
 
+        public void Deslogar()
+        {
+            this.Logado = false;
+        }
+
+        public void GerarMenu()
+        {
+            string opcao;
+            do
+            {
+                   Console.WriteLine($@"
+            
+            escolha as opcoes
+
+            [1] - Cadastrar Produto
+            [2] - Listar Produtos
+            [3] - Remover Produto
+            ----------------------
+            [4] - Cadastrar Marca
+            [5] - Listar Marcas
+            [6] - Remover Marca
+
+            [0] - Sair
+            
+            
+            ");
+
+            opcao = Console.ReadLine();
+
+            switch (opcao)
+            {
+                case "1":
+
+                    produto.Cadastrar();
+                    break;
+                case "2":
+                    produto.Listar();
+
+                    break;
+                case "3":
+                    produto.Deletar();
+
+                    break;
+                case "4":
+                    marca.Cadastrar();
+
+
+                    break;
+                case "5":
+                marca.Listar();
+
+                    break;
+                case "6":
+                marca.Remover();
+
+                    break;
+
+                default:
+                Console.WriteLine($"opcao invalida");
+                
+                    break;
+            } 
+            } while (opcao != "0");
         
+
+
+
+
+        }
     }
 }

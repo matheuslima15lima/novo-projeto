@@ -22,5 +22,9 @@ Elevador el = new Elevador();
 
 
 el.Inicicializar(6 , 3);
+
+
+
 el.Entrar();
 el.Subir();
+el.Sair();

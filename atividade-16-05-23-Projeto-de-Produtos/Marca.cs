@@ -7,24 +7,30 @@ namespace atividade_16_05_23_Projeto_de_Produtos
 {
     public class Marca
     {
-        private int codigo;
-        public string NomeMarca;
-        private DateTime DataCadastro;
-        
-      
+        public int codigo { get; set; }
+        public string NomeMarca { get; set; }
+        public DateTime DataCadastro { get; set; }
 
 
-        public string Cadastrar (  Marca _cadastro)
-        {
-            return 
-            
-        }
 
-        public string Remover (Marca _cadastro)
+
+        public void Cadastrar()
         {
             
+            this.DataCadastro=DateTime.Now;
+
         }
 
-        
+        public void Remover()
+        {
+
+        }
+
+        public void Listar()
+        {
+
+        }
+
+
     }
 }

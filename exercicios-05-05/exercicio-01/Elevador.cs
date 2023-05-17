@@ -21,6 +21,8 @@ namespace exercicio_01
         public int Capacidade { get; set; } = 6;
         public int PessoasPresentes { get; set; }
 
+        public char Opcao { get; set; }
+
         public int AndarAtual { get; set; } = 0;
 
         // metodos
@@ -29,9 +31,17 @@ namespace exercicio_01
 
         }
 
+
         public void Inicicializar(int Capacidade, int TotalAndares)
         {
-            Console.WriteLine($@"
+
+            PessoasPresentes = 0;
+            
+            do
+            {
+
+
+                Console.WriteLine($@"
             capacidade = {Capacidade} 
             total de andares {TotalAndares}
             
@@ -39,14 +49,17 @@ namespace exercicio_01
             
             ");
 
-            Console.WriteLine($@"
+                Console.WriteLine($@"
             qual andar voce quer?
             [1]
             [2]
             [3]
+            [0] sair
             
             ");
+                Opcao = char.Parse(Console.ReadLine());
 
+            } while (Opcao != '0');
 
 
 
@@ -54,17 +67,16 @@ namespace exercicio_01
 
         }
 
+
         public void Subir()
         {
 
-            Console.WriteLine($"deseja subir?");
-            Sobe Console.ReadLine();
-            
-            if (AndarAtual < 10)
+
+            if (AndarAtual >= 0)
             {
                 AndarAtual += 1;
             }
-            else
+            else if (AndarAtual == 5)
             {
                 Console.WriteLine($"Você já está no último andar!!!");
             }
@@ -74,13 +86,14 @@ namespace exercicio_01
         public void Descer()
         {
             if (AndarAtual != 0)
-        {
-            AndarAtual -=1;
-        }
-        else{
-            Console.WriteLine($"Não há como descer mais do que isso");
-            
-        }
+            {
+                AndarAtual -= 1;
+            }
+            else
+            {
+                Console.WriteLine($"Não há como descer mais do que isso");
+
+            }
 
         }
 
