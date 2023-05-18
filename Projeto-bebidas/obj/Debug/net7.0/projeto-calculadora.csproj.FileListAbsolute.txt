@@ -1,0 +1,15 @@
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\bin\Debug\net7.0\projeto-calculadora.exe
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\bin\Debug\net7.0\projeto-calculadora.deps.json
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\bin\Debug\net7.0\projeto-calculadora.runtimeconfig.json
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\bin\Debug\net7.0\projeto-calculadora.dll
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\bin\Debug\net7.0\projeto-calculadora.pdb
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\obj\Debug\net7.0\projeto-calculadora.csproj.AssemblyReference.cache
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\obj\Debug\net7.0\projeto-calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\obj\Debug\net7.0\projeto-calculadora.AssemblyInfoInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\obj\Debug\net7.0\projeto-calculadora.AssemblyInfo.cs
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\obj\Debug\net7.0\projeto-calculadora.csproj.CoreCompileInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\obj\Debug\net7.0\projeto-calculadora.dll
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\obj\Debug\net7.0\refint\projeto-calculadora.dll
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\obj\Debug\net7.0\projeto-calculadora.pdb
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\obj\Debug\net7.0\projeto-calculadora.genruntimeconfig.cache
+C:\Users\46447568812\Desktop\novo-projeto\projeto-calculadora\obj\Debug\net7.0\ref\projeto-calculadora.dll
