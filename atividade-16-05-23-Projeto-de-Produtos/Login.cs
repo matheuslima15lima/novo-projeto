@@ -55,11 +55,23 @@ namespace atividade_16_05_23_Projeto_de_Produtos
 
             }
 
+               
+
+           
+            
             else
             {
-                this.Logado = false;
-
+                while (true)
+                {
+                  this.Logado = false;
+                Console.WriteLine($"erro!!!");  
+                }
+                
+                
             }
+            
+           
+          
 
 
         }
@@ -85,6 +97,7 @@ namespace atividade_16_05_23_Projeto_de_Produtos
             [4] - Cadastrar Marca
             [5] - Listar Marcas
             [6] - Remover Marca
+            [7] - deletar usuario
 
             [0] - Sair
             
@@ -99,31 +112,38 @@ namespace atividade_16_05_23_Projeto_de_Produtos
 
                     produto.Cadastrar();
                     break;
+
                 case "2":
                     produto.Listar();
-
                     break;
+
                 case "3":
                     produto.Deletar();
-
                     break;
+
                 case "4":
                     marca.Cadastrar();
-
-
                     break;
+
                 case "5":
                 marca.Listar();
-
                     break;
+
                 case "6":
                 marca.Remover();
+                    break;
 
+                    case "7":
+                    user.Deletar();
+                    break;
+
+                    case "0":
+                    Console.WriteLine($"obrigado!!!");
+                
                     break;
 
                 default:
                 Console.WriteLine($"opcao invalida");
-                
                     break;
             } 
             } while (opcao != "0");

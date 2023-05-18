@@ -7,6 +7,7 @@ namespace atividade_16_05_23_Projeto_de_Produtos
 {
     public class Usuario
     {
+        // Login log = new Login();
         public int codigo { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
@@ -33,7 +34,12 @@ namespace atividade_16_05_23_Projeto_de_Produtos
             this.Nome = "";
             this.Email = "";
             this.Senha = "";
-            this.DataCadastro = DateTime.Parse("0000-00-00T00:00:00");
+            // Usuario user = new Usuario();
+            // log.Logar(user);
+            
+
+        
+           
 
         }
 
