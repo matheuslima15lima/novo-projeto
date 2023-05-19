@@ -32,61 +32,107 @@ namespace atividade_16_05_23_Projeto_de_Produtos
 
         public Login()
         {
+            user.ConfiguraAdmin();
+
             Logar(user);
             if (Logado = true)
             {
                 GerarMenu();
+            }
+
+            else
+            {
+                Logado = false;
+                user.Cadastrar();
             }
         }
 
 
         public void Logar(Usuario usuario)
         {
+            // user.Cadastrar();
+            // user.Nome = "Matheus";
+            // user.Email = "Matheus@emaill";
+            // user.Senha = "1234";
+            // user.DataCadastro = DateTime.Now;
+           
             Console.WriteLine($"insira seu email");
             string email = Console.ReadLine();
 
             Console.WriteLine($"insira sua senha");
             string senha = Console.ReadLine();
 
-            if (senha == usuario.Senha && email == usuario.Email)
+
+            if (senha == user.Senha && email == user.Email)
             {
                 this.Logado = true;
 
-
             }
-
-               
-
-           
-            
-            else
+             else
             {
-                while (true)
-                {
-                  this.Logado = false;
-                Console.WriteLine($"erro!!!");  
-                }
+                this.Logado = false;
                 
                 
+                             //   this.Logado = false;
+                    Console.WriteLine($"erro!!! escreva novamente");
+
+                    Console.WriteLine($"Email:");
+                     email = Console.ReadLine();
+
+
+                    Console.WriteLine($"Senha:");
+                     senha = Console.ReadLine();
+
+                    
+                 
             }
-            
-           
-          
+
+
+
+
+            // else
+            // {
+            //      this.Logado = false;
+            // //         do
+            // //         {
+            // //             this.Logado = false;
+            // //         Console.WriteLine($"erro!!! escreva novamente");
+
+            // //         Console.WriteLine($"Email:");
+            // //          email = Console.ReadLine();
+
+
+            // //         Console.WriteLine($"Senha:");
+            // //          senha = Console.ReadLine();
+
+            // //         } while (false);
+                  
+
+
+                
+
+
+            // }
+
+
+
 
 
         }
 
-        public void Deslogar()
-        {
-            this.Logado = false;
-        }
+        // public void Deslogar()
+        // {
+        //     user.Cadastrar(); 
+
+        //     this.Logado = false;
+        // }
 
         public void GerarMenu()
         {
             string opcao;
             do
             {
-                   Console.WriteLine($@"
+                Console.WriteLine($@"
             
             escolha as opcoes
 
@@ -94,60 +140,74 @@ namespace atividade_16_05_23_Projeto_de_Produtos
             [2] - Listar Produtos
             [3] - Remover Produto
             ----------------------
+
             [4] - Cadastrar Marca
             [5] - Listar Marcas
             [6] - Remover Marca
-            [7] - deletar usuario
+            ---------------------
+
+            [7]- cadastra usuario
+            [8] - listar usuario
+            [9] - deletar usuario
 
             [0] - Sair
             
             
             ");
 
-            opcao = Console.ReadLine();
+                opcao = Console.ReadLine();
 
-            switch (opcao)
-            {
-                case "1":
+                switch (opcao)
+                {
+                    case "1":
 
-                    produto.Cadastrar();
-                    break;
+                        produto.Cadastrar();
+                        break;
 
-                case "2":
-                    produto.Listar();
-                    break;
+                    case "2":
+                        produto.Listar();
+                        break;
 
-                case "3":
-                    produto.Deletar();
-                    break;
+                    case "3":
+                        produto.Deletar();
+                        break;
 
-                case "4":
-                    marca.Cadastrar();
-                    break;
+                    case "4":
+                        marca.Cadastrar();
+                        break;
 
-                case "5":
-                marca.Listar();
-                    break;
+                    case "5":
+                        marca.Listar();
+                        break;
 
-                case "6":
-                marca.Remover();
-                    break;
+                    case "6":
+                        marca.Remover();
+                        break;
 
                     case "7":
-                    user.Deletar();
-                    break;
+                        user.Cadastrar();
+                        break;
+
+
+                      case "8":  
+                      user.Listar();
+                      break;
+
+                      case "9":
+                      user.Deletar();
+                      break;
 
                     case "0":
-                    Console.WriteLine($"obrigado!!!");
-                
-                    break;
+                        Console.WriteLine($"obrigado!!!");
 
-                default:
-                Console.WriteLine($"opcao invalida");
-                    break;
-            } 
+                        break;
+
+                    default:
+                        Console.WriteLine($"opcao invalida");
+                        break;
+                }
             } while (opcao != "0");
-        
+
 
 
 
