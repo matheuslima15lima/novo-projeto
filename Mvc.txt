@@ -1,0 +1,19 @@
+o mvc é um padrão de arquitetura de software 
+responsavel por contribuir na otimização da
+velocidade entre as requisições feitas pelo
+ comando dos usuários.
+
+Ele é composto por:
+
+Model: Responsável por gerenciar e controlar a forma como os dados se comporatam por meio das 
+funções,lógica e regras de negócios estabelecidas.
+
+Controoller: A camada controller é responsável por intermediar as requisições enviadas pelo 
+view com as respostas fornecidas pelo model, processando os dados que o usuário informou e 
+repassando para outras camadas. Podemos dizer que ele serviria como um maestro que permite
+
+View: Essa camada é responsável por aprensentar as informações de forma visual ao usuário.Em
+seu desenvolvimento devem ser aplicados apenas recursos ligados a aparencia como mensagens,
+botões ou telas.
+Ele é responsável por transmitir quetionamentos ao controller e entregar as respostas obtidas
+
