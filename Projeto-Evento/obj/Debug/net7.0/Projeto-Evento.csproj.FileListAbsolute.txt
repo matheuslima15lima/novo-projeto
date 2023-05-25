@@ -1,0 +1,15 @@
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\obj\Debug\net7.0\Projeto-Evento.csproj.AssemblyReference.cache
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\obj\Debug\net7.0\Projeto-Evento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\obj\Debug\net7.0\Projeto-Evento.AssemblyInfoInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\obj\Debug\net7.0\Projeto-Evento.AssemblyInfo.cs
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\obj\Debug\net7.0\Projeto-Evento.csproj.CoreCompileInputs.cache
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\bin\Debug\net7.0\Projeto-Evento.exe
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\bin\Debug\net7.0\Projeto-Evento.deps.json
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\bin\Debug\net7.0\Projeto-Evento.runtimeconfig.json
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\bin\Debug\net7.0\Projeto-Evento.dll
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\bin\Debug\net7.0\Projeto-Evento.pdb
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\obj\Debug\net7.0\Projeto-Evento.dll
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\obj\Debug\net7.0\refint\Projeto-Evento.dll
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\obj\Debug\net7.0\Projeto-Evento.pdb
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\obj\Debug\net7.0\Projeto-Evento.genruntimeconfig.cache
+C:\Users\46447568812\Desktop\novo-projeto\Projeto-Evento\obj\Debug\net7.0\ref\Projeto-Evento.dll
