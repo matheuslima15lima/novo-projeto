@@ -13,6 +13,9 @@ namespace Model
 
 
         private const string PATH = "Database/Produto.csv";
+
+        // public object Preco { get; private set; }
+
         public Evento()
         {
             string pasta = PATH.Split("/")[0];
@@ -32,7 +35,7 @@ namespace Model
         public List<Evento> Ler()
         {
             List<Evento> eventos = new List<Evento>();
-            string Linhas = File.ReadAllLines(PATH);
+            string[] Linhas = File.ReadAllLines(PATH);
 
             foreach (var item in Linhas)
             {
@@ -41,7 +44,7 @@ namespace Model
 
                 eve.Nome = Atributos[0];
                 eve.Descricao = Atributos[1];
-                eve.Data = Atributos[2];
+                eve.Data = DateTime.Parse( Atributos[2]);
 
                 eventos.Add(eve);
             }
@@ -52,7 +55,7 @@ namespace Model
 
         public string PrepararLinhasCSV(Evento eve)
         {
-            return $"{eve.Codigo};{eve.Nome};{eve.Preco}";
+            return $"{eve.Nome};{eve.Descricao};{eve.Data}";
         }
 
 
@@ -60,7 +63,7 @@ namespace Model
         {
             string[] linhas = { PrepararLinhasCSV(eve) };
 
-            File.AppendAllLines(Path, linhas);
+            File.AppendAllLines(PATH, linhas);
         }
 
 
