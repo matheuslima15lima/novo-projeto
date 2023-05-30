@@ -23,7 +23,7 @@ namespace Projeto_gamer.Infra
         {
            if (!optionsBuilder.IsConfigured)
            {
-                optionsBuilder.UseSqlServer("Data Source = DESKTOP-2B634JF; initial catalog = gamerTarde; Integrated Security = true; TrustServerCertificate = true");
+                optionsBuilder.UseSqlServer("Data Source = DESKTOP-2B634JF; initial catalog = gamerTarde; User Id=sa; pwd=Senai@134; TrustServerCertificate = true");
            }
         }
 
