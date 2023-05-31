@@ -34,16 +34,42 @@ namespace Projeto_gamer.Controllers
             return View();
         }
 
+
+        [Route("Cadastrar")]
+
         public IActionResult Cadastrar(IFormCollection form)
         {
             Equipe novaEquipe = new Equipe();
             novaEquipe.Nome = form["Nome"].ToString();
+            novaEquipe.Imagem = form["Imagem"].ToString();
+
+
+            if(form.Files.Count > 0)
+            {
+                var Files = form.Files[0];
+
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "WWWroot/img/equipes");
+
+                if (! Directory.Exists(folder))
+                {
+                    Directory.CreateDirectory(folder);
+                }
+
+                var path = Path.Combine(folder, file.FileName)
+
+                using(var stream = new FileStream)
+            }
+
+
+
+
 
             c.Equipe.Add(novaEquipe);
 
             c.SaveChanges();
 
-            ViewBag.Equipe = c.Equipe.ToList();
+            // nao precisa do tolist aqui porque o local redirect ja chama o listar de cima
+            // ViewBag.Equipe = c.Equipe.ToList();
             return LocalRedirect("~/Equipe/LIstar");
         }
 
