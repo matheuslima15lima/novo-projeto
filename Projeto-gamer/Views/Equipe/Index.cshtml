@@ -12,7 +12,7 @@
     <input type="text" name="Nome">
 
     <Label for="">Imagem</Label>
-    <input type="text" name="Imagem">
+    <input type="file" name="Imagem">
 
     <button type="submit">Cadastrar</button>
 
@@ -37,6 +37,7 @@
         <th>Id</th>
         <th>Nome</th>
         <th>Imagem</th>
+        <th>Ações</th>
     </thead>
 
     <tbody>
@@ -45,7 +46,23 @@
             <tr>
                 <td>@equipe.IdEquipe</td>
                 <td>@equipe.Nome</td>
-                <td>@equipe.Imagem</td>
+
+
+                <td>
+                    <img src="/img/Equipes/@equipe.Imagem" alt="Imagem da equipe @equipe.Nome" width="50px">
+                </td>
+
+
+                    @* pega o controller equipe,procura a acao excluir e procura pelo id *@
+                <td>
+                    <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">Excluir</a>
+                </td>
+
+                <td>
+                    <a asp-area="" asp-controller="Equipe" asp-action="Editar"  asp-route-id="@equipe.IdEquipe">Editar</a>
+                </td>
+
+                @* <td>@equipe.Imagem</td> *@
             </tr>
         }
 

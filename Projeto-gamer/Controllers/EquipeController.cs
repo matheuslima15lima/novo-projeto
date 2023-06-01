@@ -22,15 +22,15 @@ namespace Projeto_gamer.Controllers
 
         Context c = new Context();
 
-                                        //controller/action
+        //controller/action
         [Route("Listar")]//http://localhost/Equipe/Listar
         public IActionResult Index()
         {
             //"mochila" que contém a lista das equipes
             // podemos usar  essa mochila na view da equipe
-           ViewBag.Equipe = c.Equipe.ToList();
+            ViewBag.Equipe = c.Equipe.ToList();
 
-           //retorna  a view de equipe
+            //retorna  a view de equipe
             return View();
         }
 
@@ -44,21 +44,33 @@ namespace Projeto_gamer.Controllers
             novaEquipe.Imagem = form["Imagem"].ToString();
 
 
-            if(form.Files.Count > 0)
+            if (form.Files.Count > 0)
             {
-                var Files = form.Files[0];
+                var file = form.Files[0];
 
-                var folder = Path.Combine(Directory.GetCurrentDirectory(), "WWWroot/img/equipes");
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes");
 
-                if (! Directory.Exists(folder))
+                if (!Directory.Exists(folder))
                 {
                     Directory.CreateDirectory(folder);
                 }
 
-                var path = Path.Combine(folder, file.FileName)
+                var path = Path.Combine(folder, file.FileName);
 
-                using(var stream = new FileStream)
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    file.CopyTo(stream);
+
+                }
+
+                novaEquipe.Imagem = file.FileName;
             }
+
+            else
+            {
+                novaEquipe.Imagem = "padrao.png";
+            }
+
 
 
 
@@ -73,10 +85,82 @@ namespace Projeto_gamer.Controllers
             return LocalRedirect("~/Equipe/LIstar");
         }
 
+
+        [Route("Excluir/{id}")]
+
+        public IActionResult Excluir(int id)
+        {
+            Equipe e = c.Equipe.First(e => e.IdEquipe == id);
+
+            c.Equipe.Remove(e);
+
+            c.SaveChanges();
+
+            return LocalRedirect("~/Equipe/Listar");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View("Error!");
+        }
+
+
+        [Route("Editar/{id}")]
+        public IActionResult Editar (int id)
+        {
+            Equipe e = c.Equipe.First(e => e.IdEquipe == id);
+            ViewBag.Equipe = e;
+
+            return View("Edit");
+        }
+
+
+
+        [Route("Atualizar")]
+        public IActionResult Atualizar (IFormCollection form, Equipe e)
+        {
+            Equipe novaEquipe = new Equipe();
+
+            novaEquipe.Nome = e.Nome;
+
+            
+            if(form.Files.Count >0)
+            {
+                var file = form.Files[0];
+
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes");
+
+                if (!Directory.Exists(folder))
+                {
+                    Directory.CreateDirectory(folder);
+
+                }
+                var path = Path.Combine(folder, file.FileName);
+
+                using(var stream = new FileStream(path, FileMode.Create))
+                {
+                    file.CopyTo(stream);
+
+                }
+
+                novaEquipe.Imagem = file.FileName;
+            }
+            else
+            {
+                novaEquipe.Imagem = "padrao.png";
+            }
+
+            Equipe equipe = c.Equipe.First(X => X.IdEquipe == e.IdEquipe);
+
+            equipe.Nome = novaEquipe.Nome;
+            equipe.Imagem = novaEquipe.Imagem;
+
+            c.Equipe.Update(equipe);
+
+            c.SaveChanges();
+
+            return LocalRedirect("~/Equipe/Listar");
         }
     }
 }
