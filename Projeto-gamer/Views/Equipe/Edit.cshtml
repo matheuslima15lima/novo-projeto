@@ -7,17 +7,17 @@
 <h2>Edição de Equipes</h2>
 
 
-<form method="Post" action="@Url.Action("Atualizar")" enctype="Multipart/form-data">
+<form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
 
-<input type="hidden" name="IdEquipe" value="@ViewBag.IdEquipe">
+    <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
 
-<label for="">Nome</label>
-<input type="text" name="Nome" value="@ViewBag.Equipe.Nome">
+    <label for="">Nome</label>
+    <input type="text" name="Nome" value="@ViewBag.Equipe.Nome">
 
-<label for=""></label>
-<input type="file" name="Imagem" value="ViewBag.Equipe.Imagem">
+    <label for=""></label>
+    <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
 
-<button type="submit">Atualizar</button>
+    <button type="submit">Atualizar</button>
 
 
 </form>

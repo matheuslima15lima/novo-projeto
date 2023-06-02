@@ -1,0 +1,52 @@
+@Model Jogador
+
+@{
+    ViewData["Title"] = "Jogador";
+}
+
+<h1>Tela de Jogadores</h1>
+
+
+
+@* usar depois!!!!!!!!!!!!!! *@
+@* <form action="post"></form> *@
+
+
+<table class="table table-striped table-responsive">
+
+
+<thead>
+    <th>Id</th>
+    <th>Nome</th>
+    <th>Email</th>
+    <th>Equipe</th>
+</thead>
+
+<tbody>
+
+
+    @foreach (Jogador  jogador in ViewBag.Jogador)
+    { 
+        @* colocar a tag <tr envolta de tudo que foi escrito nesse foreach *@
+      <tr>
+
+        <td>@jogador.IdJogador</td>
+        <td>@jogador.Nome</td>
+        <td>@jogador.Email</td>
+        <td>@jogador.Senha</td>
+        <td>@jogador.IdEquipe</td>
+       
+
+      </tr>
+     
+    }
+    
+
+   
+</tbody>
+
+
+</table>
+
+
+

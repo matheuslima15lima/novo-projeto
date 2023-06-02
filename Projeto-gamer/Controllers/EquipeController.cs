@@ -99,15 +99,11 @@ namespace Projeto_gamer.Controllers
             return LocalRedirect("~/Equipe/Listar");
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
-        }
+
 
 
         [Route("Editar/{id}")]
-        public IActionResult Editar (int id)
+        public IActionResult Editar(int id)
         {
             Equipe e = c.Equipe.First(e => e.IdEquipe == id);
             ViewBag.Equipe = e;
@@ -118,14 +114,14 @@ namespace Projeto_gamer.Controllers
 
 
         [Route("Atualizar")]
-        public IActionResult Atualizar (IFormCollection form, Equipe e)
+        public IActionResult Atualizar(IFormCollection form, Equipe e)
         {
             Equipe novaEquipe = new Equipe();
 
             novaEquipe.Nome = e.Nome;
 
-            
-            if(form.Files.Count >0)
+
+            if (form.Files.Count > 0)
             {
                 var file = form.Files[0];
 
@@ -136,9 +132,10 @@ namespace Projeto_gamer.Controllers
                     Directory.CreateDirectory(folder);
 
                 }
+                
                 var path = Path.Combine(folder, file.FileName);
 
-                using(var stream = new FileStream(path, FileMode.Create))
+                using (var stream = new FileStream(path, FileMode.Create))
                 {
                     file.CopyTo(stream);
 
@@ -148,10 +145,10 @@ namespace Projeto_gamer.Controllers
             }
             else
             {
-                novaEquipe.Imagem = "padrao.png";
+                novaEquipe.Imagem = "wwwroot/img/Equipes/padrao.png";
             }
 
-            Equipe equipe = c.Equipe.First(X => X.IdEquipe == e.IdEquipe);
+            Equipe equipe = c.Equipe.First(x => x.IdEquipe == e.IdEquipe);
 
             equipe.Nome = novaEquipe.Nome;
             equipe.Imagem = novaEquipe.Imagem;
@@ -161,6 +158,12 @@ namespace Projeto_gamer.Controllers
             c.SaveChanges();
 
             return LocalRedirect("~/Equipe/Listar");
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View("Error!");
         }
     }
 }
