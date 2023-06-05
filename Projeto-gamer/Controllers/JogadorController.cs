@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Projeto_gamer.Infra;
+using Projeto_gamer.Models;
 
 namespace Projeto_gamer.Controllers
 {
@@ -29,6 +30,13 @@ namespace Projeto_gamer.Controllers
             ViewBag.Equipe = c.Equipe.ToList();
             
             return View();
+        }
+
+        [Route("Cadastrar")]
+
+        public IActionResult(IFormCollection form)
+        {
+            Jogador novoJogador = new Jogador();
         }
 
         
