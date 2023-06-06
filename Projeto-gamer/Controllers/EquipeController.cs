@@ -82,7 +82,7 @@ namespace Projeto_gamer.Controllers
 
             // nao precisa do tolist aqui porque o local redirect ja chama o listar de cima
             // ViewBag.Equipe = c.Equipe.ToList();
-            return LocalRedirect("~/Equipe/LIstar");
+            return LocalRedirect("~/Equipe/Listar");
         }
 
 
@@ -90,9 +90,9 @@ namespace Projeto_gamer.Controllers
 
         public IActionResult Excluir(int id)
         {
-            Equipe e = c.Equipe.First(e => e.IdEquipe == id);
+            Equipe equipe = c.Equipe.First(e => e.IdEquipe == id);
 
-            c.Equipe.Remove(e);
+            c.Equipe.Remove(equipe);
 
             c.SaveChanges();
 

@@ -33,10 +33,61 @@ namespace Projeto_gamer.Controllers
         }
 
         [Route("Cadastrar")]
-
-        public IActionResult(IFormCollection form)
+        public IActionResult Cadastrar (IFormCollection form)
         {
             Jogador novoJogador = new Jogador();
+
+
+
+            // novoJogador.Nome recebe o nome que for passado no form no campo "Nome"
+            novoJogador.Nome = form ["Nome"].ToString();
+            novoJogador.Email = form ["Email"].ToString();
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
+
+            c.Jogador.Add(novoJogador);
+
+            // salvando as alteracoes
+            c.SaveChanges();
+            return LocalRedirect("~/Jogador/Listar");
+        }
+
+        [Route("Excluir/{id}")]
+        public IActionResult Excluir(int id)
+        {
+            Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == id);
+
+            c.Jogador.Remove(jogadorBuscado);
+
+            c.SaveChanges();
+            return LocalRedirect("~/Jogador/Listar");
+        }
+
+
+        [Route("Editar/{id}")]
+        public IActionResult Editar(int id)
+        {
+            Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == id);
+            ViewBag.Jogador = jogadorBuscado;
+
+            ViewBag.Equipe = c.Equipe.ToList();
+
+            return View("Edit");
+        }
+
+        [Route("Atualizar")]
+        public IActionResult Atualizar(IFormCollection form)
+        {
+            Jogador novoJogador = new Jogador();
+            novoJogador.IdJogador = int.Parse(form["IdJogador"].ToString());
+            novoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Email = form["Email"].ToString();
+            novoJogador.Senha = form["Senha"].ToString();
+            novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
+
+            Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == )
+
+
         }
 
         
