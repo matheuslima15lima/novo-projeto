@@ -26,22 +26,24 @@ namespace Projeto_gamer.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
             ViewBag.Jogador = c.Jogador.ToList();
             ViewBag.Equipe = c.Equipe.ToList();
-            
+
             return View();
         }
 
         [Route("Cadastrar")]
-        public IActionResult Cadastrar (IFormCollection form)
+        public IActionResult Cadastrar(IFormCollection form)
         {
             Jogador novoJogador = new Jogador();
 
 
 
             // novoJogador.Nome recebe o nome que for passado no form no campo "Nome"
-            novoJogador.Nome = form ["Nome"].ToString();
-            novoJogador.Email = form ["Email"].ToString();
+            novoJogador.Nome = form["Nome"].ToString();
+            novoJogador.Email = form["Email"].ToString();
             novoJogador.Senha = form["Senha"].ToString();
             novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
 
@@ -67,6 +69,8 @@ namespace Projeto_gamer.Controllers
         [Route("Editar/{id}")]
         public IActionResult Editar(int id)
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
             Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == id);
             ViewBag.Jogador = jogadorBuscado;
 
@@ -85,12 +89,24 @@ namespace Projeto_gamer.Controllers
             novoJogador.Senha = form["Senha"].ToString();
             novoJogador.IdEquipe = int.Parse(form["IdEquipe"].ToString());
 
-            Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == )
+            Jogador jogadorBuscado = c.Jogador.First(j => j.IdJogador == novoJogador.IdJogador);
+
+
+            jogadorBuscado.Nome = novoJogador.Nome;
+            jogadorBuscado.Email = novoJogador.Email;
+            jogadorBuscado.Senha = novoJogador.Senha;
+            jogadorBuscado.IdEquipe = novoJogador.IdEquipe;
+
+            c.Jogador.Update(jogadorBuscado);
+            c.SaveChanges();
+
+
+            return LocalRedirect("~/Jogador/Listar");
 
 
         }
 
-        
+
 
         // public IActionResult Index()
         // {

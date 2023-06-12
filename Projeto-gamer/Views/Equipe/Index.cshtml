@@ -5,7 +5,12 @@
 }
 
 <h1>Tela de Equipes</h1>
-
+@if (ViewBag.UserName == null)
+{
+    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+}
+else
+{
 
 <form method="post" action="@Url.Action("Cadastrar")" enctype="multipart/form-data">
     <Label for="">Nome</Label>
@@ -69,3 +74,4 @@
 
     </tbody>
 </table>
+}
