@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "acjwnszCD8jMuKbm26HIA4VUhixVbCfqdy6kirzJbuk=",
+  "Hash": "vE0xUEAmSKWeXuRegwPic4JRvIqWsJjTsbf4nNuxD9A=",
   "Source": "Projeto-gamer",
   "BasePath": "_content/Projeto-gamer",
   "Mode": "Default",
@@ -1564,6 +1564,23 @@
       "OriginalItemSpec": "wwwroot\\images\\noticia8.png"
     },
     {
+      "Identity": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\img\\Equipes\\barsemlona.png",
+      "SourceId": "Projeto-gamer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\",
+      "BasePath": "_content/Projeto-gamer",
+      "RelativePath": "img/Equipes/barsemlona.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\barsemlona.png"
+    },
+    {
       "Identity": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\img\\Equipes\\calvo.png",
       "SourceId": "Projeto-gamer",
       "SourceType": "Discovered",
@@ -1749,6 +1766,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\paysandu.png"
+    },
+    {
+      "Identity": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\img\\Equipes\\realmadruga.png",
+      "SourceId": "Projeto-gamer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\",
+      "BasePath": "_content/Projeto-gamer",
+      "RelativePath": "img/Equipes/realmadruga.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\realmadruga.png"
     },
     {
       "Identity": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\img\\Equipes\\timao.png",

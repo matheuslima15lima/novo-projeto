@@ -4,27 +4,72 @@
     ViewData["Title"] = "Edit";
 }
 
+<link rel="stylesheet" href="~/css/equipes.css">
+
 <h2>Edição de Equipes</h2>
 
 
+<!-- MAIN -->
+<main>
+
+    <section class="container-grid cadastro-equipes">
+
+        <form class="frm-cad-equipe" method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+            <div class="cadequipe-titulo">
+                <h1>Edição de Equipes</h1>
+                <hr>
+            </div>
+
+            @* <input class="campo-entrada" type="number" id="idEquipe" placeholder="Digite o Id da sua equipe:"> *@
+
+            <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+            <input class="campo-entrada" value=@ViewBag.Equipe.IdEquipe name="Nome" required type="text"
+                placeholder="Digite o nome da sua equipe:">
+            <label class="foto" for="foto-file">
+                Nenuma imagem selecionada...
+                <input type="file" value=@ViewBag.Equipe.Imagem name="Imagem" id="foto-file">
+            </label>
+
+            <button>Atualizar</button>
+
+
+
+            <!-- <select class="equipeid" id="equipeid">
+                    <option value="">Selecione uma Equipe</option>
+                    <option value="x">Equipe X</option>
+                    <option value="y">Equipe Y</option>
+
+                </select> -->
+
+        </form>
+
+    </section>
+
+
+</main>
+
+
+
+
+@*
 @if (ViewBag.UserName == null)
 {
-    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+<a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
 }
 else
 {
 <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
 
-    <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+<input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
 
-    <label for="">Nome</label>
-    <input type="text" name="Nome" value="@ViewBag.Equipe.Nome">
+<label for="">Nome</label>
+<input type="text" name="Nome" value="@ViewBag.Equipe.Nome">
 
-    <label for=""></label>
-    <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
+<label for=""></label>
+<input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem">
 
-    <button type="submit">Atualizar</button>
+<button type="submit">Atualizar</button>
 
 
-</form>
-}
+</form> *@
+@* } *@

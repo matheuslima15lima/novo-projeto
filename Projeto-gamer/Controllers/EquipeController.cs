@@ -149,7 +149,7 @@ namespace Projeto_gamer.Controllers
             }
             else
             {
-                novaEquipe.Imagem = "wwwroot/img/Equipes/padrao.png";
+                novaEquipe.Imagem = "padrao.png";
             }
 
             Equipe equipe = c.Equipe.First(x => x.IdEquipe == e.IdEquipe);
