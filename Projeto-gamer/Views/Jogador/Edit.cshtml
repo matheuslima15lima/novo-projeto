@@ -3,8 +3,9 @@
 @{
     ViewData["Title"] = "Edit";
 }
+<link rel="stylesheet" href="~/css/jogadores.css">
 
-<h1>Edição de Jogadores</h1>
+
 
 @if (ViewBag.UserName == null)
 {
@@ -13,37 +14,49 @@
 else
 {
 
-<form method="post" action="@Url.Action("Atualizar")" >
+    <main>
 
-    <input type="hidden" name="IdJogador" value="@ViewBag.Jogador.IdJogador">
+        <section class="container-grid cadastro-equipes">
+            <form class="frm-cad-equipe" method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
 
-    <label for="">Nome</label>
-    <input type="text" name="Nome" value="@ViewBag.Jogador.Nome">
+                        @* titulo do site com a fonte *@
+                <div class="cadequipe-titulo">
+                    <h1>Edição de Jogadores</h1>
+                    <hr>
+                </div>
 
-    <label for="">Email</label>
-    <input type="email" name="Email" value="@ViewBag.Jogador.Email">
+                <input class="campo-entrada" type="hidden" name="IdJogador" value="@ViewBag.Jogador.IdJogador">
 
-    <label for="">Senha</label>
-    <input type="password" name="Senha" value="@ViewBag.Jogador.Senha">
+                <label for="">Nome</label>
+                <input class="campo-entrada" type="text" name="Nome" id="nome-jogador" value="@ViewBag.Jogador.Nome">
 
-    <label for="">Equipe</label>
-    <select name="IdEquipe" id="IdEquipe">
-        <option value="0">Selecione uma equipe: </option>
+                <label for="">Email</label>
+                <input class="campo-entrada" type="email" name="Email"  id="email-jogador" value="@ViewBag.Jogador.Email">
 
-        @foreach (Equipe equipe in ViewBag.Equipe)
-        {
-            @if (equipe.IdEquipe == @ViewBag.Jogador.IdEquipe)
-            {
-                <option value="@equipe.IdEquipe" selected>@equipe.Nome</option>
-            }
-            else
-            {
-                <option value="@equipe.IdEquipe">@equipe.Nome</option>
-            }
-        }
-    </select>
+                <label for="">Senha</label>
+                <input class="campo-entrada" type="password" name="Senha" value="@ViewBag.Jogador.Senha">
 
-    <button type="submit">Atualizar</button>
+                <label for="">Equipe</label>
+                <select name="IdEquipe" id="IdEquipe">
+                    <option value="0">Selecione uma equipe: </option>
 
-</form>
+                    @foreach (Equipe equipe in ViewBag.Equipe)
+                    {
+                        @if (equipe.IdEquipe == @ViewBag.Jogador.IdEquipe)
+                        {
+                            <option value="@equipe.IdEquipe" selected>@equipe.Nome</option>
+                        }
+                        else
+                        {
+                            <option value="@equipe.IdEquipe">@equipe.Nome</option>
+                        }
+                    }
+                </select>
+
+                <button type="submit">Atualizar</button>
+
+            </form>
+
+        </section>
+    </main>
 }

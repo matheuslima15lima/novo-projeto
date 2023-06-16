@@ -185,6 +185,10 @@
       "PackagePath": "staticwebassets\\assets\\joystick-prof-icon.svg"
     },
     {
+      "Id": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\assets\\lapis.png",
+      "PackagePath": "staticwebassets\\assets\\lapis.png"
+    },
+    {
       "Id": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\assets\\linkedin-yellow.svg",
       "PackagePath": "staticwebassets\\assets\\linkedin-yellow.svg"
     },
@@ -251,6 +255,10 @@
     {
       "Id": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\css\\jogadores.css",
+      "PackagePath": "staticwebassets\\css\\jogadores.css"
     },
     {
       "Id": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\css\\login copy.css",

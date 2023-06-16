@@ -27,7 +27,7 @@
             @* <input class="campo-entrada" type="number" id="idEquipe" placeholder="Digite o Id da sua equipe:"> *@
             <input class="campo-entrada" name="Nome" required type="text" placeholder="Digite o nome da sua equipe:">
             <label class="foto" for="foto-file">
-                Nenuma imagem selecionada...
+                Nenhuma imagem selecionada...
                 <input type="file" name="Imagem" id="foto-file">
             </label>
 
@@ -79,7 +79,7 @@
                         @* pega o controller equipe,procura a acao excluir e procura pelo id *@
                             <td>
                             <a asp-area="" asp-controller="Equipe" asp-action="Excluir" asp-route-id="@equipe.IdEquipe">  <img class="yellow-trash" src="~/assets/trash.png" alt=""></a>
-                             <a asp-area="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@equipe.IdEquipe">Editar</a>
+                             <a asp-area="" asp-controller="Equipe" asp-action="Editar" asp-route-id="@equipe.IdEquipe"><img class="lapis" src="~/assets/lapis.png" alt="" width="15px"></a>
                         </td>
 
                         @* <td>@equipe.Imagem</td> *@
@@ -88,7 +88,7 @@
         
             </tbody>
         </table>
-        }
+        
 
 
 

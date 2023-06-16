@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vE0xUEAmSKWeXuRegwPic4JRvIqWsJjTsbf4nNuxD9A=",
+  "Hash": "b6gzeX4gDpM4qQM76wDHk3zSix2FyxArcDiVGNKT//Y=",
   "Source": "Projeto-gamer",
   "BasePath": "_content/Projeto-gamer",
   "Mode": "Default",
@@ -816,6 +816,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\joystick-prof-icon.svg"
     },
     {
+      "Identity": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\assets\\lapis.png",
+      "SourceId": "Projeto-gamer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\",
+      "BasePath": "_content/Projeto-gamer",
+      "RelativePath": "assets/lapis.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\lapis.png"
+    },
+    {
       "Identity": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\assets\\linkedin-yellow.svg",
       "SourceId": "Projeto-gamer",
       "SourceType": "Discovered",
@@ -1103,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\css\\jogadores.css",
+      "SourceId": "Projeto-gamer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\",
+      "BasePath": "_content/Projeto-gamer",
+      "RelativePath": "css/jogadores.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jogadores.css"
     },
     {
       "Identity": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\css\\login copy.css",
