@@ -1,0 +1,26 @@
+*{
+    margin-top: 0px;
+}
+
+body{
+    background-image: url(assets/images/champions.webp);background-repeat: no-repeat;
+    b
+}
+
+
+h1{
+    border: 2px solid green;
+  background-color: aqua;
+    padding-left: 20px;
+    margin-left: 20px;
+
+}
+
+.elemental{
+    border-bottom: 2px solid yellow;
+    padding-bottom: 0px;
+}
+
+.elemental p{
+    color: aliceblue;
+}

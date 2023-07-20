@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b6gzeX4gDpM4qQM76wDHk3zSix2FyxArcDiVGNKT//Y=",
+  "Hash": "RyLRWPHIBLN9pJ4Zgp2v1bUvo6G9OoxFpGwvPv9EGfE=",
   "Source": "Projeto-gamer",
   "BasePath": "_content/Projeto-gamer",
   "Mode": "Default",
@@ -1392,6 +1392,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Card-FIFA.png"
+    },
+    {
+      "Identity": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\images\\champions.webp",
+      "SourceId": "Projeto-gamer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\",
+      "BasePath": "_content/Projeto-gamer",
+      "RelativePath": "images/champions.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\champions.webp"
     },
     {
       "Identity": "C:\\Users\\46447568812\\Desktop\\novo-projeto\\Projeto-gamer\\wwwroot\\images\\Game-CS-GO.png",
