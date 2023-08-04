@@ -1,4 +1,4 @@
-USE Exercicio_1_2;
+USE Exercicio_1_2__DQL
 
 INSERT INTO Empresa(Nome)
 Values('eff')
@@ -59,8 +59,8 @@ VALUES('mrn8v98','1','1','2')
 INSERT INTO Veiculo(Placa,idMarca,IdModelo,IdEmpresa)
 VALUES('k45668','4','3','1')
 
-INSERT INTO Aluguel (IdVeiculo,IdCliente)
-values('1','1')
+INSERT INTO Aluguel (IdVeiculo,IdCliente,Valor,DataRetirada,DataDevolucao)
+values('1','2','10000.00','10/04/2024','12/04/2024' )
 
 INSERT INTO Aluguel (IdVeiculo,IdCliente)
 values('2','3')
@@ -76,4 +76,48 @@ select * from Empresa
 select * from Modelo
 
 select * from Aluguel
+
+
+
+SELECT
+Nome,DataRetirada,DataDevolucao,Modelo.Modelo
+
+FROM
+Veiculo inner join Aluguel on Aluguel.IdVeiculo = Veiculo.IdVeiculo
+inner join Cliente on Aluguel.IdCliente = Cliente.IdCliente
+inner join Modelo on Veiculo.IdModelo = Modelo.IdModelo
+
+
+
+
+SELECT
+Nome,DataRetirada,DataDevolucao,Modelo.Modelo
+
+FROM
+Veiculo inner join Aluguel on Aluguel.IdVeiculo = Veiculo.IdVeiculo
+inner join Cliente on Aluguel.IdCliente = Cliente.IdCliente
+inner join Modelo on Veiculo.IdModelo = Modelo.IdModelo
+where
+Cliente.Nome like 'Rafael'
+
+
+
+
+
+
+
+select 
+Cliente.Nome where IdCliente = '1'
+
+from
+Cliente Left join Aluguel on Aluguel.IdCliente = Cliente.IdCliente
+
+/*- listar todos os alugueis mostrando as datas de início e fim, o nome do cliente que alugou e nome do modelo do carro
+/*- listar os alugueis de um determinado cliente mostrando seu nome, as datas de início e fim e o nome do modelo do carro
+
+/*SELECT
+Nome,Endereco,CNH
+FROM
+Pessoa right join Email on Pessoa.idPessoa = Email.idEmail
+
 
