@@ -25,7 +25,7 @@ CREATE TABLE Instituicao
 	NomeFantasia VARCHAR (200) NOT NULL
 )
 
-CREATE TABLE Usuario
+CREATE TABLE Usuario 
 (
 	IdUsuario INT PRIMARY KEY IDENTITY,
 	IdTipoDeUsuario INT FOREIGN KEY REFERENCES TiposDeUsuario(IdTipoDeUsuario) NOT NULL,
@@ -62,3 +62,17 @@ CREATE TABLE ComentarioEvento
 	Descricao VARCHAR(200),
 	Exibe BIT DEFAULT(0)
 )
+
+--criar script para consulta exibindo os seguintes dados 
+-- Usar Join
+--nome do usuario
+--tipo do usuario
+--data do evento
+--local do evento 
+--tipo do evento
+--nome do evento
+--descricao do evento
+--situacao do evneto
+--comentario do evento
+
+
