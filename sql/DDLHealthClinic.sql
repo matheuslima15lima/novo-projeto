@@ -84,3 +84,15 @@ ADD CRM VARCHAR(20) NOT NULL UNIQUE ;
 	Descricao VARCHAR(100)
   
   )
+
+  CREATE TABLE Comentario
+  (
+   IdComentario INT PRIMARY KEY IDENTITY,
+   IdConsulta INT FOREIGN KEY REFERENCES Consulta(IdConsulta),
+   IdPaciente INT FOREIGN KEY REFERENCES Paciente (IdPaciente),
+   Descricao VARCHAR(100),
+   DataComentario DATE,
+   Exibe BIT DEFAULT(0) 
+  
+  
+  )
