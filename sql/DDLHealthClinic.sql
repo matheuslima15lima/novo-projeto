@@ -96,3 +96,6 @@ ADD CRM VARCHAR(20) NOT NULL UNIQUE ;
   
   
   )
+
+
+  select * from Clinica,Usuario,TipoDeUsuario,Paciente, Medico,Consulta,Comentario
